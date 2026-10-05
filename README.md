@@ -30,9 +30,28 @@
     - [CrewAI quickstart](https://docs.crewai.com/v1.15.18/en/quickstart)
     - [Langchain agents](https://docs.langchain.com/oss/python/langchain/agents)
     - [Langchain vector store integrations](https://docs.langchain.com/oss/python/integrations/vectorstores). It is not about vector stores, this is just one example of the amount of integrations available with Langchain
-    - [Strands Agents SDK: A technical deep dive into agent architectures and observability](https://aws.amazon.com/blogs/machine-learning/strands-agents-sdk-a-technical-deep-dive-into-agent-architectures-and-observability/)
+    - Strands
+        - [Strands Agents SDK: A technical deep dive into agent architectures and observability](https://aws.amazon.com/blogs/machine-learning/strands-agents-sdk-a-technical-deep-dive-into-agent-architectures-and-observability/)
+        - [Strands tools](https://github.com/strands-agents/tools), community-driven set of tools
+        - [Strands hooks](https://strandsagents.com/docs/user-guide/sdk/agents/hooks-events/)
+
 - [Runtime instances: persistent compute for production AI agents on Amazon Bedrock AgentCore](https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore/)
 - [Get started with Amazon Bedrock AgentCore Runtime direct code deployment](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-get-started-code-deploy.html)
 - Deployment toolset
     - [Agentcore CLI](https://github.com/aws/agentcore-cli)
     - **DEPRECATED** [Agentcore starter toolkit](https://github.com/aws/bedrock-agentcore-starter-toolkit)
+
+- Memory
+    - [Memory concepts in langchain doc](https://docs.langchain.com/oss/python/concepts/memory)
+    - [Memory in the Age of AI Agents: A Survey](https://arxiv.org/pdf/2512.13564) - interesting research on agentic memory evolution and future
+
+    - AgentCore
+        - [Built-in long-term memory strategies](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/built-in-strategies.html). Pay attention to the system prompts used in each strategy.
+        - [Use short-term memory](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/using-memory-short-term.html), operations available are:
+            - CreateEvent
+            - GetEvent
+            - ListEvents
+            - DeleteEvent
+        - [Use long-term memory](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/long-term-memory-long-term.html), operations available are:
+            - [RetrieveMemoryRecords](https://docs.aws.amazon.com/bedrock-agentcore/latest/APIReference/API_RetrieveMemoryRecords.html)
+            - [ListMemoryRecords](https://docs.aws.amazon.com/bedrock-agentcore/latest/APIReference/API_ListMemoryRecords.html)
