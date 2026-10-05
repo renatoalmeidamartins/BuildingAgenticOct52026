@@ -10,3 +10,6 @@
 - [What is RAG?](https://aws.amazon.com/what-is/retrieval-augmented-generation/)
 - [REAC T: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS](https://arxiv.org/pdf/2210.03629)
 - [Introducing Amazon Bedrock Managed Knowledge Base for faster, more accurate enterprise AI applications](https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-managed-knowledge-base-for-faster-more-accurate-enterprise-ai-applications/)
+- Interacting with a knowledge base via the API is done with two calls:
+    - [Retrieve](https://docs.aws.amazon.com/bedrock/latest/APIReference/API_agent-runtime_Retrieve.html), just pull related documents from the KB
+    - [Retrieve and Generate](https://docs.aws.amazon.com/bedrock/latest/APIReference/API_agent-runtime_RetrieveAndGenerate.html), gets the documents and generates the augmented response
