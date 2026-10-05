@@ -1,0 +1,6 @@
+strands-agents
+strands-agents-tools
+langchain-aws
+langchain
+langgraph
+bedrock-agentcore
