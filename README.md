@@ -30,3 +30,9 @@
     - [CrewAI quickstart](https://docs.crewai.com/v1.15.18/en/quickstart)
     - [Langchain agents](https://docs.langchain.com/oss/python/langchain/agents)
     - [Langchain vector store integrations](https://docs.langchain.com/oss/python/integrations/vectorstores). It is not about vector stores, this is just one example of the amount of integrations available with Langchain
+    - [Strands Agents SDK: A technical deep dive into agent architectures and observability](https://aws.amazon.com/blogs/machine-learning/strands-agents-sdk-a-technical-deep-dive-into-agent-architectures-and-observability/)
+- [Runtime instances: persistent compute for production AI agents on Amazon Bedrock AgentCore](https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore/)
+- [Get started with Amazon Bedrock AgentCore Runtime direct code deployment](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-get-started-code-deploy.html)
+- Deployment toolset
+    - [Agentcore CLI](https://github.com/aws/agentcore-cli)
+    - **DEPRECATED** [Agentcore starter toolkit](https://github.com/aws/bedrock-agentcore-starter-toolkit)
