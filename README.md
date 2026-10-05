@@ -25,3 +25,8 @@
 - Policy
     - [Why Policy in Amazon Bedrock AgentCore chose Cedar for securing agentic workflows](https://aws.amazon.com/blogs/security/why-policy-in-amazon-bedrock-agentcore-chose-cedar-for-securing-agentic-workflows/)
     - [Understanding Cedar policies](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/policy-understanding-cedar.html)
+- Frameworks
+    - [Building a LangGraph Agent from Scratch](https://towardsdatascience.com/building-a-langgraph-agent-from-scratch/)
+    - [CrewAI quickstart](https://docs.crewai.com/v1.15.18/en/quickstart)
+    - [Langchain agents](https://docs.langchain.com/oss/python/langchain/agents)
+    - [Langchain vector store integrations](https://docs.langchain.com/oss/python/integrations/vectorstores). It is not about vector stores, this is just one example of the amount of integrations available with Langchain
