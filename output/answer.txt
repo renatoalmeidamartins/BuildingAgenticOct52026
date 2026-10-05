@@ -1,0 +1,1 @@
+The number of letter R's in the word "strawberry" is 3.

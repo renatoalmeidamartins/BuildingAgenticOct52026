@@ -5,7 +5,7 @@
 - [Access to labs and courseware](https://us-east-1.student.classrooms.aws.training/class/ilt%23aRZaLdfBWfAFjabuiuRqQ5). This is a direct link to the class. There are two other paths to get there:
     - https://classrooms.aws.training : here you can see all the classes you have signed up for.
     - https://myclass.skillbuilder.aws/ : here you see current and past classes. Once the class is marked as complete (early afternoon), it moves to the past classes. There, you will be able to fill the evaluation survey.
-
+- [2025 Top 10 Risk & Mitigations for LLMs and Gen AI Apps](https://genai.owasp.org/llm-top-10/)
 
 - [What is RAG?](https://aws.amazon.com/what-is/retrieval-augmented-generation/)
 - [REAC T: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS](https://arxiv.org/pdf/2210.03629)
@@ -33,6 +33,7 @@
     - Strands
         - [Strands Agents SDK: A technical deep dive into agent architectures and observability](https://aws.amazon.com/blogs/machine-learning/strands-agents-sdk-a-technical-deep-dive-into-agent-architectures-and-observability/)
         - [Strands tools](https://github.com/strands-agents/tools), community-driven set of tools
+        - [Strands vended tools](https://strandsagents.com/docs/user-guide/sdk/tools/vended-tools/), "official set of tools"
         - [Strands hooks](https://strandsagents.com/docs/user-guide/sdk/agents/hooks-events/)
 
 - [Runtime instances: persistent compute for production AI agents on Amazon Bedrock AgentCore](https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore/)
@@ -55,3 +56,7 @@
         - [Use long-term memory](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/long-term-memory-long-term.html), operations available are:
             - [RetrieveMemoryRecords](https://docs.aws.amazon.com/bedrock-agentcore/latest/APIReference/API_RetrieveMemoryRecords.html)
             - [ListMemoryRecords](https://docs.aws.amazon.com/bedrock-agentcore/latest/APIReference/API_ListMemoryRecords.html)
+- [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
+- [MCP architecture](https://modelcontextprotocol.io/docs/2026-07-28/learn/architecture)
+- [Agentcore gateway targets](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/gateway-targets-mcp.html)
+- [Search for tools in your AgentCore gateway with a natural language query](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/gateway-using-mcp-semantic-search.html)
